@@ -1,0 +1,16 @@
+/псевдокод от Бога/
+
+ShowPickUpDialog: bool;
+
+
+void Update {
+ ShowPickUpDialog= false;
+ if (чувак рядом с пушкой) {
+ 	ShowPickUpDialog= true;
+ } 
+}
+
+void OnGUI {
+	GUI.Label(new Rect (Координата по широте, Координата по высоте, ширина, высота), "Шопоказывать");
+}
+
